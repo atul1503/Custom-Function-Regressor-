@@ -11,7 +11,7 @@ def LinearRegressor(data,d):
     i=0
     while i<=it:
             
-        for j in [0,1]:    
+        for j in [0,-1]:    
                       
 
                       
