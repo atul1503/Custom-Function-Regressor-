@@ -9,11 +9,11 @@ At the time of writing,you have to hard code your function.You also have to type
 
 Parameters are represented as w matrix where:
 
-a=w[0]
-b=w[1]
-c=w[2]
-d=w[3]
-e=w[4]
+a=w[0],
+b=w[1],
+c=w[2],
+d=w[3],
+e=w[4],
 .
 .
 .
