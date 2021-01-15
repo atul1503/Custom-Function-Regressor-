@@ -23,7 +23,7 @@ def par_deriv(y,x,w,k,d):
         prior=custom(x,w)
         w[k]=original
         later=custom(x,w)
-        return abs(prior-later)/d
+        return abs(prior-later)/(-d)
     else:
         return 0
         
