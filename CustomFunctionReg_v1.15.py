@@ -60,7 +60,7 @@ def signCheck(x,y):
 def speedify(d,e,pe,acc,slowIndicator):
     if e/(pe*slowIndicator)>1 and abs(e)<=abs(pe) and signCheck(e,pe):
         return d*acc
-    elif e/(pe*(slowIndicator*0.9)>1 and abs(e)<=abs(pe) and signCheck(e,pe):
+    elif e/(pe*(slowIndicator*0.9))>1 and abs(e)<=abs(pe) and signCheck(e,pe):
         return d*acc*0.8
     return d
 
