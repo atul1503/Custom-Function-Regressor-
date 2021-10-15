@@ -5,7 +5,7 @@ Custom Function Regressor using Stochastic Gradient in pure Python.
 
 Usage:
 -------
-At the time of writing,you have to hard code your function.You also have to type the partial derivatives of the function with respect to all parameters.
+At the time of writing,you have to hard code your function.Partial derivatives of your function will be calculated automatically.
 
 Parameters are represented as w matrix where:
 
@@ -22,7 +22,7 @@ etc.
 
 You also have to give the no. of parameters in the coeff variable.
 
-The function has to written to the pred variable.
+The function has to be written to the pred variable.
 
 dw matrix is the weight update matrix for each w index.
 
